@@ -34,23 +34,28 @@
     <title>Rising Heights Pavilion</title>
   </head>
   <body>
-    <header class="sticky top-0">
+    <header class="sticky top-0 z-10">
       <nav class="bg-[#ff5134]">
-        <div class="py-8 px-4 mx-auto max-w-screen-xllg:px-6"></div>
+        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:px-6 hidden xl:block"></div>
       </nav>
       <nav class="bg-white border-gray-200 px-4 lg:px-6 py-2.5">
         <div
           class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl"
         >
           <a href="/" class="flex items-center">
-            <img src="images/logo.png" class="mr-3 h-6 sm:h-9" loading="lazy" alt="loading" />
+            <img
+              src="images/logo.png"
+              class="mr-3 h-6 sm:h-9"
+              loading="lazy"
+              alt="loading"
+            />
             <div
               class="self-center text-xl font-semibold whitespace-nowrap border-s-2 border-black"
             >
               <span class="ms-2 flex flex-col">Rising Heights</span>
             </div>
           </a>
-          <div class="flex items-center gap-3 lg:order-2">
+          <div class="flex items-center lg:order-2">
             <button
               type="button"
               class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2"
@@ -59,7 +64,7 @@
             </button>
             <button
               type="button"
-              class="text-white bg-blue-700 hover:bg-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 focus:outline-none"
+              class="text-white bg-blue-700 hover:bg-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 focus:outline-none"
             >
               Register
             </button>
@@ -146,23 +151,32 @@
         </div>
       </nav>
     </header>
-    <main>
+    <main class="hidden">
       <section
-        class="bg-[url('https://mages.unsplash.com/photo-1507152832244-10d45c7eda57?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-top bg-no-repeat"
+        class="bg-[url('https://images.unsplash.com/photo-1525784451128-d1488f52f03e?q=80&w=2128&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-top bg-no-repeat"
       >
         <div class="max-w-screen-xl px-4 py-40 mx-auto">
           <div class="grid place-self-center">
             <h1
+              data-aos="zoom-in"
+              data-aos-duration="4000"
+              data-aos-delay="300"
               class="max-w-2xl mb-4 text-[#ff5134] text-4xl font-extrabold tracking-tight leading-none md:text-2xl xl:text-4xl"
             >
               Rising Height
             </h1>
             <h1
+              data-aos="zoom-in"
+              data-aos-duration="4000"
+              data-aos-delay="300"
               class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl uppercase"
             >
               Corporate Social Association
             </h1>
             <p
+              data-aos="fade-up-left"
+              data-aos-duration="4000"
+              data-aos-delay="300"
               class="max-w-2xl mb-6 text-gray-500 lg:mb-8 md:text-lg lg:text-xl"
             >
               Enhancing and Advancing the Social Dignity and Well-Being of Man
@@ -193,11 +207,19 @@
         <div class="py-20 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
           <div class="max-w-screen-md mx-auto mb-8 lg:mb-16 text-center">
             <h2
+              data-aos="zoom-in-left"
+              data-aos-duration="4000"
+              data-aos-delay="200"
               class="mb-4 text-2xl lg:text-4xl tracking-tight font-extrabold text-gray-900 uppercase"
             >
               welocme to rising pavilion
             </h2>
-            <p class="text-gray-500 sm:text-xl">
+            <p
+              data-aos="fade-up-left"
+              data-aos-duration="4000"
+              data-aos-delay="300"
+              class="text-gray-500 sm:text-xl"
+            >
               We provide the tools and resources needed for individuals and
               communities to overcome poverty and build a brighter future.
             </p>
@@ -206,6 +228,9 @@
             class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0"
           >
             <div
+              data-aos="zoom-in-up"
+              data-aos-duration="4000"
+              data-aos-delay="300"
               class="min-h-[200px] xl:min-h-[250px] rounded-sm flex flex-col justify-between"
             >
               <div>
@@ -242,6 +267,9 @@
               >
             </div>
             <div
+              data-aos="zoom-in-up"
+              data-aos-duration="4500"
+              data-aos-delay="300"
               class="min-h-[200px] xl:min-h-[250px] rounded-sm flex flex-col justify-between"
             >
               <div>
@@ -277,6 +305,9 @@
               >
             </div>
             <div
+              data-aos="zoom-in-up"
+              data-aos-duration="5000"
+              data-aos-delay="300"
               class="min-h-[200px] xl:min-h-[250px] rounded-sm flex flex-col justify-between"
             >
               <div>
@@ -316,16 +347,26 @@
       </section>
       <section class="bg-gray-50">
         <div
-          class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-12 lg:py-16 lg:grid-cols-12"
+          class="grid max-w-screen-xl px-4 py-20 mx-auto lg:gap-8 xl:gap-12 lg:py-40 lg:grid-cols-12"
         >
-          <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+          <div
+            data-aos="fade-right"
+            data-aos-duration="4000"
+            data-aos-delay="300"
+            class="hidden lg:mt-0 lg:col-span-5 lg:flex"
+          >
             <img
               class="object-cover object-center"
               src="https://images.unsplash.com/photo-1519783558103-d3eeaac092a9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="mockup"
             />
           </div>
-          <div class="mr-auto place-self-center lg:col-span-7">
+          <div
+            data-aos="fade-left"
+            data-aos-duration="4000"
+            data-aos-delay="300"
+            class="mr-auto place-self-center lg:col-span-7"
+          >
             <h1
               class="max-w-2xl mb-4 text-[#ff5134] text-lg lg:text-xl font-extrabold tracking-tight leading-none md:text-2xl"
             >
@@ -367,8 +408,8 @@
         </div>
       </section>
       <section>
-        <div class="max-w-screen-xl mx-auto px-4 py-8 lg:py-16 lg:px-6">
-          <div>
+        <div class="max-w-screen-xl mx-auto px-4 py-20 lg:py-40 lg:px-6">
+          <div data-aos="zoom-in" data-aos-duration="3000" data-aos-delay="300">
             <h1
               class="max-w-2xl mb-4 text-[#ff5134] text-lg lg:text-xl font-extrabold tracking-tight leading-none md:text-2xl"
             >
@@ -390,46 +431,75 @@
           <div
             id="works"
             class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-8"
-          >
-          </div>
+          ></div>
         </div>
       </section>
       <section
-        class="bg-[url('https://images.unsplash.com/photo-1519783558103-d3eeaac092a9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center bg-no-repeat"
+        class="bg-gray-100 bg-[url('https://mages.unsplash.com/photo-1525784451128-d1488f52f03e?q=80&w=2128&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center bg-no-repeat"
       >
-        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-          <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
+        <div class="py-20 px-4 mx-auto max-w-screen-xl lg:py-40 lg:px-6">
+          <div
+            data-aos="fade-in"
+            data-aos-duration="2000"
+            data-aos-delay="100"
+            class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16"
+          >
             <h2
               class="mb-4 text-2xl lg:text-4xl tracking-tight font-extrabold text-gray-900 uppercase"
             >
               Our Team
             </h2>
             <p class="text-gray-500 lg:mb-16 sm:text-xl">
-              Our team is a passionate collective of experienced professionals  united by a love for empowerment and a dedication to creating solutions for poverty alleviation
+              Our team is a passionate collective of experienced professionals
+              united by a love for empowerment and a dedication to creating
+              solutions for poverty alleviation
             </p>
           </div>
           <div id="team" class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2"></div>
         </div>
       </section>
       <section class="bg-white">
-        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-          <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
+        <div class="py-20 px-4 mx-auto max-w-screen-xl lg:py-40 lg:px-6">
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="3000"
+            data-aos-delay="300"
+            class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16"
+          >
             <h2
               class="mb-4 text-2xl lg:text-4xl tracking-tight font-extrabold text-gray-900 uppercase"
             >
               Compensation Plan
             </h2>
             <p class="text-gray-500 lg:mb-16 sm:text-xl">
-              Like to become a member of Rising Height, you need to register under
-              the package you want. We have two packages or board which include
-              the Car Board and the Keke Board. Registration Fee to join the Car
-              Board is N100,000 while Registration Fee for the Keke Board is
-              N50,000.
+              Like to become a member of Rising Height, you need to register
+              under the package you want. We have two packages or board which
+              include the Car Board and the Keke Board. Registration Fee to join
+              the Car Board is N100,000 while Registration Fee for the Keke
+              Board is N50,000.
             </p>
           </div>
-          <div class="max-w-screen-lg mx-auto flex flex-wrap items-center justify-center gap-6 md:justify-between">
-            <img class="max-h-[400px]" src="images/plan-1.png" loading="lazy" alt="loading">
-            <img class="max-h-[400px]" src="images/plan-2.png" loading="lazy" alt="loading">
+          <div
+            class="max-w-screen-lg mx-auto flex flex-wrap items-center justify-center gap-6 md:justify-between"
+          >
+            <img
+              data-aos="fade-left"
+              data-aos-duration="3000"
+              data-aos-delay="300"
+              class="max-h-[400px]"
+              src="images/plan-1.png"
+              loading="lazy"
+              alt="loading"
+            />
+            <img
+              data-aos="fade-right"
+              data-aos-duration="3000"
+              data-aos-delay="300"
+              class="max-h-[400px]"
+              src="images/plan-2.png"
+              loading="lazy"
+              alt="loading"
+            />
           </div>
         </div>
       </section>
@@ -512,84 +582,128 @@
         </div>
       </section>
     </main>
-    <footer class="p-4 bg-gray-800 lg:p-6">
+    <footer class="px-4 bg-gray-800 lg:px-6 py-20">
       <div class="mx-auto max-w-screen-xl">
-        <div class="flex item-center justify-between flex-wrap gap-8">
+        <div
+          class="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 justify-between gap-8"
+        >
           <div>
             <h2
               class="mb-6 text-white text-base xl:text-lg font-bold text-gray-900 uppercase"
             >
               About Us
             </h2>
-            <ul class="text-gray-300">
-              <li class="mb-4">
-                <a href="https://flowbite.com" class="hover:underline"
-                  >Flowbite</a
-                >
-              </li>
-              <li>
-                <a href="https://tailwindcss.com/" class="hover:underline"
-                  >Tailwind CSS</a
-                >
-              </li>
-            </ul>
+            <p class="text-gray-300 mt-6 text-sm">
+              We are a corporate social association drawing membership from all
+              interest groups and persons from all works of life with a common
+              aim and objective of enhancing welfare.
+            </p>
           </div>
           <div>
             <h2
               class="mb-6 text-white text-base xl:text-lg font-bold text-gray-900 uppercase"
             >
-              About Us
+              Gallery
             </h2>
-            <ul class="text-gray-300">
-              <li class="mb-4">
-                <a href="https://flowbite.com" class="hover:underline"
-                  >Flowbite</a
-                >
-              </li>
-              <li>
-                <a href="https://tailwindcss.com/" class="hover:underline"
-                  >Tailwind CSS</a
-                >
-              </li>
-            </ul>
+            <div class="mt-6 grid grid-cols-3 gap-2 xl:gap-3">
+              <img
+                class="object-cover object-center rounded-md"
+                src="https://images.unsplash.com/photo-1507152832244-10d45c7eda57?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                loading="lazy"
+                alt="loading"
+              /><img
+                class="object-cover object-center rounded-md"
+                src="https://images.unsplash.com/photo-1507152832244-10d45c7eda57?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                loading="lazy"
+                alt="loading"
+              /><img
+                class="object-cover object-center rounded-md"
+                src="https://images.unsplash.com/photo-1507152832244-10d45c7eda57?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                loading="lazy"
+                alt="loading"
+              /><img
+                class="object-cover object-center rounded-md"
+                src="https://images.unsplash.com/photo-1507152832244-10d45c7eda57?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                loading="lazy"
+                alt="loading"
+              /><img
+                class="object-cover object-center rounded-md"
+                src="https://images.unsplash.com/photo-1507152832244-10d45c7eda57?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                loading="lazy"
+                alt="loading"
+              /><img
+                class="object-cover object-center rounded-md"
+                src="https://images.unsplash.com/photo-1507152832244-10d45c7eda57?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                loading="lazy"
+                alt="loading"
+              />
+            </div>
           </div>
           <div>
             <h2
               class="mb-6 text-white text-base xl:text-lg font-bold text-gray-900 uppercase"
             >
-              About Us
+              Recent post
             </h2>
-            <ul class="text-gray-300">
-              <li class="mb-4">
-                <a href="https://flowbite.com" class="hover:underline"
-                  >Flowbite</a
-                >
-              </li>
-              <li>
-                <a href="https://tailwindcss.com/" class="hover:underline"
-                  >Tailwind CSS</a
-                >
-              </li>
-            </ul>
+              <div class="flex flex-col gap-3 mt-6">
+                <div class="flex items-center h-full">
+                    <img class="w-16 h-16 object-cover object-center" src="https://images.unsplash.com/photo-1507152832244-10d45c7eda57?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="dashboard image">
+                    <div class="ms-3">
+                        <h2 class="text-md font-extrabold text-white">2024 empowerment program</h2>
+                        <p class="text-gray-200 text-sm mt-2">August 07, 2024</p>
+                    </div>
+                </div> <div class="flex items-center h-full">
+                    <img class="w-16 h-16 object-cover object-center" src="https://images.unsplash.com/photo-1507152832244-10d45c7eda57?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="dashboard image">
+                    <div class="ms-3">
+                        <h2 class="text-md font-extrabold text-white">2024 empowerment program</h2>
+                        <p class="text-gray-200 text-sm mt-2">August 07, 2024</p>
+                    </div>
+                </div>
+            </div>
           </div>
           <div>
             <h2
               class="mb-6 text-white text-base xl:text-lg font-bold text-gray-900 uppercase"
             >
-              About Us
+              subscribe us
             </h2>
-            <ul class="text-gray-300">
-              <li class="mb-4">
-                <a href="https://flowbite.com" class="hover:underline"
-                  >Flowbite</a
+
+            <form class="max-w-[200px] xl:max-w-xl">
+              <div class="mb-5">
+                <label
+                  for="email"
+                  class="block mb-2 text-sm font-medium text-white"
+                  >Your email</label
                 >
-              </li>
-              <li>
-                <a href="https://tailwindcss.com/" class="hover:underline"
-                  >Tailwind CSS</a
+                <input
+                  type="email"
+                  id="email"
+                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                  placeholder="name@flowbite.com"
+                  required
+                />
+              </div>
+              <div class="mb-5">
+                <label
+                  for="password"
+                  class="block mb-2 text-sm font-medium text-white"
+                  >Your password</label
                 >
-              </li>
-            </ul>
+                <input
+                  type="password"
+                  id="password"
+                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                  required
+                />
+              </div>
+
+              <button
+                type="submit"
+                class="text-white bg-[#ff5134] hover:bg-opacity-90 font-medium rounded-lg text-sm w-fit sm:w-auto px-5 py-2.5 text-center"
+              >
+                Submit
+              </button>
+            </form>
           </div>
         </div>
         <hr class="my-6 border-gray-200 sm:mx-auto lg:my-8" />
@@ -680,40 +794,47 @@
         {
           id: 1,
           title: "agriculture produce",
-          details: "We are partnering with farms and farm owners for the benefit of all our members in the area of food supply",
-          img: ""
+          details:
+            "We are partnering with farms and farm owners for the benefit of all our members in the area of food supply",
+          img: "",
         },
         {
           id: 2,
           title: "electrical home appliance",
-          details: "These include various electrical home appliances from manufacturers such as Samsung, LG etc.",
-          img: ""
+          details:
+            "These include various electrical home appliances from manufacturers such as Samsung, LG etc.",
+          img: "",
         },
         {
           id: 3,
           title: "luxury real estate",
-          details: "This is the ultimate target of RISING HEIGHT PAVILION for every registered member",
-          img: ""
+          details:
+            "This is the ultimate target of RISING HEIGHT PAVILION for every registered member",
+          img: "",
         },
-        ,{
+        ,
+        {
           id: 4,
           title: "automobiles",
-          details: "We are partnering with automobile brands of your choice such as Toyota, Mercedes Benz etc.",
-          img: ""
+          details:
+            "We are partnering with automobile brands of your choice such as Toyota, Mercedes Benz etc.",
+          img: "",
         },
         {
           id: 5,
           title: "home furniture firms",
-          details: "We are partnering with home furniture firms such as Bedmate, Interior Woodwork etc.",
-          img: ""
+          details:
+            "We are partnering with home furniture firms such as Bedmate, Interior Woodwork etc.",
+          img: "",
         },
         {
           id: 6,
           title: "finance and e-commerce",
-          details: "Profitable and Genuine side income that lead to financial stability",
-          img: ""
-        }
-      ]
+          details:
+            "Profitable and Genuine side income that lead to financial stability",
+          img: "",
+        },
+      ];
       const teamArray = [
         {
           id: 1,
@@ -756,7 +877,9 @@
       const teamHTML = teamArray
         .map(
           (item, index) => `
-          <div class="items-center bg-gray-50 rounded-lg shadow sm:flex">
+          <div data-aos="zoom-in"
+          data-aos-duration="3000"
+          data-aos-delay="300" class="items-center bg-gray-50 rounded-lg shadow sm:flex">
               <a href="#">
                 <img
                   class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
@@ -781,12 +904,14 @@
         .join("");
       team.innerHTML = teamHTML;
 
-
       const works = document.getElementById("works");
       const worksHTML = worksArray
         .map(
           (item, index) => `
           <div
+          data-aos="zoom-in"
+          data-aos-duration="4000"
+          data-aos-delay="300"
               class="bg-white border border-gray-200 rounded-lg shadow"
             >
               <a href="#">
