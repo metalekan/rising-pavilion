@@ -34,18 +34,16 @@
     <title>Rising Heights Pavilion</title>
   </head>
   <body>
-    <header>
+    <header class="sticky top-0">
       <nav class="bg-[#ff5134]">
-        <div class="py-8 px-4 mx-auto max-w-screen-xllg:px-6">
-         
-        </div>
+        <div class="py-8 px-4 mx-auto max-w-screen-xllg:px-6"></div>
       </nav>
       <nav class="bg-white border-gray-200 px-4 lg:px-6 py-2.5">
         <div
           class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl"
         >
           <a href="/" class="flex items-center">
-            <img src="images/logo.png" class="mr-3 h-6 sm:h-9" alt="loading" />
+            <img src="images/logo.png" class="mr-3 h-6 sm:h-9" loading="lazy" alt="loading" />
             <div
               class="self-center text-xl font-semibold whitespace-nowrap border-s-2 border-black"
             >
@@ -53,10 +51,18 @@
             </div>
           </a>
           <div class="flex items-center gap-3 lg:order-2">
-            <button type="button" class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2">Log In</button>
-            <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 focus:outline-none">Register</button>
-
-            
+            <button
+              type="button"
+              class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2"
+            >
+              Log In
+            </button>
+            <button
+              type="button"
+              class="text-white bg-blue-700 hover:bg-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 focus:outline-none"
+            >
+              Register
+            </button>
 
             <button
               data-collapse-toggle="mobile-menu-2"
@@ -141,8 +147,10 @@
       </nav>
     </header>
     <main>
-      <section class="bg-[url('https://images.unsplash.com/photo-1507152832244-10d45c7eda57?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-top bg-no-repeat">
-        <div class="max-w-screen-xl px-4 py-20 mx-auto">
+      <section
+        class="bg-[url('https://mages.unsplash.com/photo-1507152832244-10d45c7eda57?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-top bg-no-repeat"
+      >
+        <div class="max-w-screen-xl px-4 py-40 mx-auto">
           <div class="grid place-self-center">
             <h1
               class="max-w-2xl mb-4 text-[#ff5134] text-4xl font-extrabold tracking-tight leading-none md:text-2xl xl:text-4xl"
@@ -162,7 +170,7 @@
             </p>
             <a
               href="#"
-              class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-[#ff5134] hover:bg-opacity-95 focus:ring-4 focus:ring-blue-300 w-fit"
+              class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-[#ff5134] hover:bg-opacity-90 w-fit"
             >
               Get started
               <svg
@@ -182,9 +190,7 @@
         </div>
       </section>
       <section class="bg-white">
-        <div
-          class="py-20 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6"
-        >
+        <div class="py-20 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
           <div class="max-w-screen-md mx-auto mb-8 lg:mb-16 text-center">
             <h2
               class="mb-4 text-2xl lg:text-4xl tracking-tight font-extrabold text-gray-900 uppercase"
@@ -199,7 +205,9 @@
           <div
             class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0"
           >
-            <div class="min-h-[200px] xl:min-h-[250px] border rounded-sm flex flex-col justify-between">
+            <div
+              class="min-h-[200px] xl:min-h-[250px] rounded-sm flex flex-col justify-between"
+            >
               <div>
                 <div
                   class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-blue-100 lg:h-12 lg:w-12"
@@ -227,11 +235,15 @@
                   common aim and objective of enhancing welfare.
                 </p>
               </div>
-              <a href="" class="mt-5 text-[#ff5134] text-base xl:text-md font-bold capitalize"
+              <a
+                href=""
+                class="mt-5 text-[#ff5134] hover:underline text-base xl:text-md font-bold capitalize"
                 >Learn more</a
               >
             </div>
-            <div class="min-h-[200px] xl:min-h-[250px] border rounded-sm flex flex-col justify-between">
+            <div
+              class="min-h-[200px] xl:min-h-[250px] rounded-sm flex flex-col justify-between"
+            >
               <div>
                 <div
                   class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-blue-100 lg:h-12 lg:w-12"
@@ -258,11 +270,15 @@
                   Man
                 </p>
               </div>
-              <a href="" class="mt-5 text-[#ff5134] text-base xl:text-md font-bold capitalize"
+              <a
+                href=""
+                class="mt-5 text-[#ff5134] hover:underline text-base xl:text-md font-bold capitalize"
                 >Learn more</a
               >
             </div>
-            <div class="min-h-[200px] xl:min-h-[250px] border rounded-sm flex flex-col justify-between">
+            <div
+              class="min-h-[200px] xl:min-h-[250px] rounded-sm flex flex-col justify-between"
+            >
               <div>
                 <div
                   class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-blue-100 lg:h-12 lg:w-12"
@@ -289,7 +305,9 @@
                   building a better society.
                 </p>
               </div>
-              <a href="" class="mt-5 text-[#ff5134] text-base xl:text-md font-bold capitalize"
+              <a
+                href=""
+                class="mt-5 text-[#ff5134] hover:underline text-base xl:text-md font-bold capitalize"
                 >Learn more</a
               >
             </div>
@@ -309,12 +327,12 @@
           </div>
           <div class="mr-auto place-self-center lg:col-span-7">
             <h1
-              class="max-w-2xl mb-4 text-[#ff5134] text-xl font-extrabold tracking-tight leading-none md:text-2xl"
+              class="max-w-2xl mb-4 text-[#ff5134] text-lg lg:text-xl font-extrabold tracking-tight leading-none md:text-2xl"
             >
               OUR OFFERS
             </h1>
             <h1
-              class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl capitalize"
+              class="max-w-2xl mb-4 text-2xl lg:text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl uppercase"
             >
               we serve the best among all in the industry
             </h1>
@@ -329,7 +347,7 @@
             </p>
             <a
               href="#"
-              class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-[#ff5134] hover:bg-opacity-95 focus:ring-4 focus:ring-blue-300 w-fit"
+              class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-[#ff5134] hover:bg-opacity-90 w-fit"
             >
               Get started
               <svg
@@ -352,192 +370,231 @@
         <div class="max-w-screen-xl mx-auto px-4 py-8 lg:py-16 lg:px-6">
           <div>
             <h1
-              class="max-w-2xl mb-4 text-[#ff5134] text-xl font-extrabold tracking-tight leading-none md:text-2xl"
+              class="max-w-2xl mb-4 text-[#ff5134] text-lg lg:text-xl font-extrabold tracking-tight leading-none md:text-2xl"
             >
               OUR PARTNERSHIPS
             </h1>
             <h1
-              class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl uppercase"
+              class="max-w-2xl mb-4 text-2xl lg:text-4xl font-extrabold tracking-tight leading-none xl:text-6xl uppercase"
             >
               WE ARE THE BEST
             </h1>
             <p
-              class="max-w-2xl mb-6 text-gray-500 lg:mb-8 md:text-lg lg:text-xl"
+              class="max-w-3xl mb-6 text-gray-500 lg:mb-8 md:text-lg lg:text-xl"
             >
               We are in partnership with genuine and reliable companies in the
-              areas of.
+              areas of:
             </p>
+          </div>
+
+          <div
+            id="works"
+            class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-8"
+          >
           </div>
         </div>
       </section>
-      <section class="bg-[url('https://images.unsplash.com/photo-1519783558103-d3eeaac092a9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center bg-no-repeat">
+      <section
+        class="bg-[url('https://images.unsplash.com/photo-1519783558103-d3eeaac092a9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center bg-no-repeat"
+      >
         <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
           <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
             <h2
-              class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900"
+              class="mb-4 text-2xl lg:text-4xl tracking-tight font-extrabold text-gray-900 uppercase"
             >
               Our Team
             </h2>
             <p class="text-gray-500 lg:mb-16 sm:text-xl">
-              Explore the whole collection of open-source web components and
-              elements built with the utility classes from Tailwind
+              Our team is a passionate collective of experienced professionals  united by a love for empowerment and a dedication to creating solutions for poverty alleviation
             </p>
           </div>
-          <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
-            <div class="items-center bg-gray-50 rounded-lg shadow sm:flex">
-              <a href="#">
-                <img
-                  class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
-                  src="images/author-01.jpg.png"
-                  alt="loading"
-                />
-              </a>
-              <div class="p-5">
-                <h3
-                  class="text-xl font-bold tracking-tight text-gray-900 capitalize"
-                >
-                  <a href="#">isaac shogo johnson</a>
-                </h3>
-                <span class="text-gray-500">Marketing & Sale</span>
-                <p class="mt-3 mb-4 text-gray-500">
-                  Nana, our CEO brings a powerful blend of visionary spirit
-                </p>
-              </div>
-            </div>
-          </div>
+          <div id="team" class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2"></div>
         </div>
       </section>
       <section class="bg-white">
         <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
           <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
             <h2
-              class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 uppercase"
+              class="mb-4 text-2xl lg:text-4xl tracking-tight font-extrabold text-gray-900 uppercase"
             >
               Compensation Plan
             </h2>
             <p class="text-gray-500 lg:mb-16 sm:text-xl">
-              LTo become a member of Rising Height, you need to register under
+              Like to become a member of Rising Height, you need to register under
               the package you want. We have two packages or board which include
               the Car Board and the Keke Board. Registration Fee to join the Car
               Board is N100,000 while Registration Fee for the Keke Board is
               N50,000.
             </p>
           </div>
+          <div class="max-w-screen-lg mx-auto flex flex-wrap items-center justify-center gap-6 md:justify-between">
+            <img class="max-h-[400px]" src="images/plan-1.png" loading="lazy" alt="loading">
+            <img class="max-h-[400px]" src="images/plan-2.png" loading="lazy" alt="loading">
+          </div>
         </div>
       </section>
       <section class="bg-[#ff5134]">
-        <div class="flex item-center flex-col xl:flex-row gap-6 justify-around max-w-screen-xl mx-auto px-4 py-8 lg:py-16 lg:px-6">
+        <div
+          class="flex item-center flex-col xl:flex-row gap-6 justify-around max-w-screen-xl mx-auto px-4 py-8 lg:py-16 lg:px-6"
+        >
           <div class="grow flex items-start gap-3">
-           <div class="p-1 bg-gray-300 rounded-full">
-              <svg class="w-6 h-6 text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
+            <div class="p-1 bg-white rounded-full">
+              <svg
+                class="w-6 h-6 text-gray-800"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z"
+                  clip-rule="evenodd"
+                />
               </svg>
-           </div>
+            </div>
             <p class="text-sm text-white">
-              Block D, Suite D5, 2XL MALL Beside Zenith Bank, Off 3rd Avenue, Gwarinpa, Abuja, Nigeria
+              Block D, Suite D5, 2XL MALL Beside Zenith Bank, Off 3rd Avenue,
+              Gwarinpa, Abuja, Nigeria
             </p>
           </div>
           <div class="grow flex items-start gap-3">
-            <div class="p-1 bg-gray-300 rounded-full">
-              <svg class="w-6 h-6 text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                <path fill-rule="evenodd" d="M5 4a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4Zm12 12V5H7v11h10Zm-5 1a1 1 0 1 0 0 2h.01a1 1 0 1 0 0-2H12Z" clip-rule="evenodd"/>
+            <div class="p-1 bg-white rounded-full">
+              <svg
+                class="w-6 h-6 text-gray-800"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M5 4a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4Zm12 12V5H7v11h10Zm-5 1a1 1 0 1 0 0 2h.01a1 1 0 1 0 0-2H12Z"
+                  clip-rule="evenodd"
+                />
               </svg>
-              
             </div>
-             <div class="flex flex-col text-sm text-white">
-              <a href="tel:+2347041654049">+234 70 4165 4049</a>
-              <a href="tel:+2347042365491">+234 70 4236 5491</a>
-             </div>
-           </div>
-           <div class="grow flex items-start gap-3">
-            <div class="p-1 bg-gray-300 rounded-full">
-              <svg class="w-6 h-6 text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                <path fill-rule="evenodd" d="M5.024 3.783A1 1 0 0 1 6 3h12a1 1 0 0 1 .976.783L20.802 12h-4.244a1.99 1.99 0 0 0-1.824 1.205 2.978 2.978 0 0 1-5.468 0A1.991 1.991 0 0 0 7.442 12H3.198l1.826-8.217ZM3 14v5a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5h-4.43a4.978 4.978 0 0 1-9.14 0H3Z" clip-rule="evenodd"/>
+            <div class="flex flex-col text-sm text-white">
+              <a href="tel:+2347041654049" class="hover:underline"
+                >+234 70 4165 4049</a
+              >
+              <a href="tel:+2347042365491" class="hover:underline"
+                >+234 70 4236 5491</a
+              >
+            </div>
+          </div>
+          <div class="grow flex items-start gap-3">
+            <div class="p-1 bg-white rounded-full">
+              <svg
+                class="w-6 h-6 text-gray-800"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M5.024 3.783A1 1 0 0 1 6 3h12a1 1 0 0 1 .976.783L20.802 12h-4.244a1.99 1.99 0 0 0-1.824 1.205 2.978 2.978 0 0 1-5.468 0A1.991 1.991 0 0 0 7.442 12H3.198l1.826-8.217ZM3 14v5a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5h-4.43a4.978 4.978 0 0 1-9.14 0H3Z"
+                  clip-rule="evenodd"
+                />
               </svg>
-              
             </div>
-             <span class="text-sm text-white">
+            <a href="" class="text-sm text-white hover:underline">
               hello@risingheight.com
-             </span>
-           </div>
+            </a>
+          </div>
         </div>
       </section>
     </main>
-    <footer class="p-4 bg-white lg:p-6">
+    <footer class="p-4 bg-gray-800 lg:p-6">
       <div class="mx-auto max-w-screen-xl">
-          <div class="flex item-center justify-between flex-wrap gap-8">
-            <div>
-              <h2 class="mb-6 text-base xl:text-lg font-bold text-gray-900 uppercase">
-                About Us
-              </h2>
-              <ul class="text-gray-600">
-                <li class="mb-4">
-                  <a href="https://flowbite.com" class="hover:underline"
-                    >Flowbite</a
-                  >
-                </li>
-                <li>
-                  <a href="https://tailwindcss.com/" class="hover:underline"
-                    >Tailwind CSS</a
-                  >
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h2 class="mb-6 text-base xl:text-lg font-bold text-gray-900 uppercase">
-                About Us
-              </h2>
-              <ul class="text-gray-600">
-                <li class="mb-4">
-                  <a href="https://flowbite.com" class="hover:underline"
-                    >Flowbite</a
-                  >
-                </li>
-                <li>
-                  <a href="https://tailwindcss.com/" class="hover:underline"
-                    >Tailwind CSS</a
-                  >
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h2 class="mb-6 text-base xl:text-lg font-bold text-gray-900 uppercase">
-                About Us
-              </h2>
-              <ul class="text-gray-600">
-                <li class="mb-4">
-                  <a href="https://flowbite.com" class="hover:underline"
-                    >Flowbite</a
-                  >
-                </li>
-                <li>
-                  <a href="https://tailwindcss.com/" class="hover:underline"
-                    >Tailwind CSS</a
-                  >
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h2 class="mb-6 text-base xl:text-lg font-bold text-gray-900 uppercase">
-                About Us
-              </h2>
-              <ul class="text-gray-600">
-                <li class="mb-4">
-                  <a href="https://flowbite.com" class="hover:underline"
-                    >Flowbite</a
-                  >
-                </li>
-                <li>
-                  <a href="https://tailwindcss.com/" class="hover:underline"
-                    >Tailwind CSS</a
-                  >
-                </li>
-              </ul>
-            </div>
+        <div class="flex item-center justify-between flex-wrap gap-8">
+          <div>
+            <h2
+              class="mb-6 text-white text-base xl:text-lg font-bold text-gray-900 uppercase"
+            >
+              About Us
+            </h2>
+            <ul class="text-gray-300">
+              <li class="mb-4">
+                <a href="https://flowbite.com" class="hover:underline"
+                  >Flowbite</a
+                >
+              </li>
+              <li>
+                <a href="https://tailwindcss.com/" class="hover:underline"
+                  >Tailwind CSS</a
+                >
+              </li>
+            </ul>
           </div>
+          <div>
+            <h2
+              class="mb-6 text-white text-base xl:text-lg font-bold text-gray-900 uppercase"
+            >
+              About Us
+            </h2>
+            <ul class="text-gray-300">
+              <li class="mb-4">
+                <a href="https://flowbite.com" class="hover:underline"
+                  >Flowbite</a
+                >
+              </li>
+              <li>
+                <a href="https://tailwindcss.com/" class="hover:underline"
+                  >Tailwind CSS</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2
+              class="mb-6 text-white text-base xl:text-lg font-bold text-gray-900 uppercase"
+            >
+              About Us
+            </h2>
+            <ul class="text-gray-300">
+              <li class="mb-4">
+                <a href="https://flowbite.com" class="hover:underline"
+                  >Flowbite</a
+                >
+              </li>
+              <li>
+                <a href="https://tailwindcss.com/" class="hover:underline"
+                  >Tailwind CSS</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2
+              class="mb-6 text-white text-base xl:text-lg font-bold text-gray-900 uppercase"
+            >
+              About Us
+            </h2>
+            <ul class="text-gray-300">
+              <li class="mb-4">
+                <a href="https://flowbite.com" class="hover:underline"
+                  >Flowbite</a
+                >
+              </li>
+              <li>
+                <a href="https://tailwindcss.com/" class="hover:underline"
+                  >Tailwind CSS</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
         <hr class="my-6 border-gray-200 sm:mx-auto lg:my-8" />
         <div class="sm:flex sm:items-center sm:justify-between">
-          <span class="text-sm text-gray-500 sm:text-center"
+          <span class="text-sm text-gray-200 sm:text-center"
             >© 2024
             <a href="https://flowbite.com" class="hover:underline"
               >Rising Height Pavilion</a
@@ -545,28 +602,71 @@
           </span>
           <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
             <a href="#" class="text-white bg-[#ff5134] p-1 rounded-full">
-              <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"/>
+              <svg
+                class="w-6 h-6"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z"
+                  clip-rule="evenodd"
+                />
               </svg>
-              
             </a>
             <a href="#" class="text-white bg-[#ff5134] p-1 rounded-full">
-              <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M13.795 10.533 20.68 2h-3.073l-5.255 6.517L7.69 2H1l7.806 10.91L1.47 22h3.074l5.705-7.07L15.31 22H22l-8.205-11.467Zm-2.38 2.95L9.97 11.464 4.36 3.627h2.31l4.528 6.317 1.443 2.02 6.018 8.409h-2.31l-4.934-6.89Z"/>
+              <svg
+                class="w-6 h-6"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M13.795 10.533 20.68 2h-3.073l-5.255 6.517L7.69 2H1l7.806 10.91L1.47 22h3.074l5.705-7.07L15.31 22H22l-8.205-11.467Zm-2.38 2.95L9.97 11.464 4.36 3.627h2.31l4.528 6.317 1.443 2.02 6.018 8.409h-2.31l-4.934-6.89Z"
+                />
               </svg>
-              
             </a>
             <a href="#" class="text-white bg-[#ff5134] p-1 rounded-full">
-              <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-                <path fill-rule="evenodd" d="M21.7 8.037a4.26 4.26 0 0 0-.789-1.964 2.84 2.84 0 0 0-1.984-.839c-2.767-.2-6.926-.2-6.926-.2s-4.157 0-6.928.2a2.836 2.836 0 0 0-1.983.839 4.225 4.225 0 0 0-.79 1.965 30.146 30.146 0 0 0-.2 3.206v1.5a30.12 30.12 0 0 0 .2 3.206c.094.712.364 1.39.784 1.972.604.536 1.38.837 2.187.848 1.583.151 6.731.2 6.731.2s4.161 0 6.928-.2a2.844 2.844 0 0 0 1.985-.84 4.27 4.27 0 0 0 .787-1.965 30.12 30.12 0 0 0 .2-3.206v-1.516a30.672 30.672 0 0 0-.202-3.206Zm-11.692 6.554v-5.62l5.4 2.819-5.4 2.801Z" clip-rule="evenodd"/>
+              <svg
+                class="w-6 h-6"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M21.7 8.037a4.26 4.26 0 0 0-.789-1.964 2.84 2.84 0 0 0-1.984-.839c-2.767-.2-6.926-.2-6.926-.2s-4.157 0-6.928.2a2.836 2.836 0 0 0-1.983.839 4.225 4.225 0 0 0-.79 1.965 30.146 30.146 0 0 0-.2 3.206v1.5a30.12 30.12 0 0 0 .2 3.206c.094.712.364 1.39.784 1.972.604.536 1.38.837 2.187.848 1.583.151 6.731.2 6.731.2s4.161 0 6.928-.2a2.844 2.844 0 0 0 1.985-.84 4.27 4.27 0 0 0 .787-1.965 30.12 30.12 0 0 0 .2-3.206v-1.516a30.672 30.672 0 0 0-.202-3.206Zm-11.692 6.554v-5.62l5.4 2.819-5.4 2.801Z"
+                  clip-rule="evenodd"
+                />
               </svg>
-              
             </a>
             <a href="#" class="text-white bg-[#ff5134] p-1 rounded-full">
-              <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
+              <svg
+                class="w-6 h-6"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="none"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="currentColor"
+                  fill-rule="evenodd"
+                  d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z"
+                  clip-rule="evenodd"
+                />
               </svg>
-              
             </a>
           </div>
         </div>
@@ -576,6 +676,165 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
+      const worksArray = [
+        {
+          id: 1,
+          title: "agriculture produce",
+          details: "We are partnering with farms and farm owners for the benefit of all our members in the area of food supply",
+          img: ""
+        },
+        {
+          id: 2,
+          title: "electrical home appliance",
+          details: "These include various electrical home appliances from manufacturers such as Samsung, LG etc.",
+          img: ""
+        },
+        {
+          id: 3,
+          title: "luxury real estate",
+          details: "This is the ultimate target of RISING HEIGHT PAVILION for every registered member",
+          img: ""
+        },
+        ,{
+          id: 4,
+          title: "automobiles",
+          details: "We are partnering with automobile brands of your choice such as Toyota, Mercedes Benz etc.",
+          img: ""
+        },
+        {
+          id: 5,
+          title: "home furniture firms",
+          details: "We are partnering with home furniture firms such as Bedmate, Interior Woodwork etc.",
+          img: ""
+        },
+        {
+          id: 6,
+          title: "finance and e-commerce",
+          details: "Profitable and Genuine side income that lead to financial stability",
+          img: ""
+        }
+      ]
+      const teamArray = [
+        {
+          id: 1,
+          name: "s. i nana",
+          role: "chairman",
+          img: "images/author-01.png",
+        },
+        {
+          id: 2,
+          name: "Isaac Shogo Johnson",
+          role: "Co- founder and Coordinator",
+          img: "images/author-02.png",
+        },
+        {
+          id: 3,
+          name: "Alkali Bukar Alibe",
+          role: "Geologist, Politician, Administrator ",
+          img: "images/author-03.png",
+        },
+        {
+          id: 4,
+          name: "Eddie Albert O",
+          role: "Nigeria Diaspora Business Front",
+          img: "images/author-04.jpg",
+        },
+        {
+          id: 5,
+          name: "Ishaya Audu",
+          role: "Businessman and Industry player",
+          img: "images/author-05.jpg",
+        },
+        {
+          id: 6,
+          name: "Barr. Mrs. Amaechi Christie Dike",
+          role: "MEMBER",
+          img: "images/author-06.jpg",
+        },
+      ];
+      const team = document.getElementById("team");
+      const teamHTML = teamArray
+        .map(
+          (item, index) => `
+          <div class="items-center bg-gray-50 rounded-lg shadow sm:flex">
+              <a href="#">
+                <img
+                  class="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
+                  src=${item.img}
+                  loading="lazy" alt="loading"
+                />
+              </a>
+              <div class="p-5">
+                <h3
+                  class="text-xl font-bold tracking-tight text-gray-900 capitalize"
+                >${item.name}</p>
+                </h3>
+                <span class="text-gray-500">${item.role}</span>
+                <p class="mt-3 mb-4 text-gray-500">
+                  Nana, our CEO brings a powerful blend of visionary spirit
+                </p>
+              </div>
+            </div>
+
+      `
+        )
+        .join("");
+      team.innerHTML = teamHTML;
+
+
+      const works = document.getElementById("works");
+      const worksHTML = worksArray
+        .map(
+          (item, index) => `
+          <div
+              class="bg-white border border-gray-200 rounded-lg shadow"
+            >
+              <a href="#">
+                <img
+                  class="rounded-t-lg"
+                  src="https://images.unsplash.com/photo-1507152832244-10d45c7eda57?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt=""
+                />
+              </a>
+              <div class="p-5">
+                <a href="#">
+                  <h5
+                    class="mb-2 text-2xl font-bold tracking-tight text-gray-900 capitalize"
+                  >
+                    ${item.title}
+                  </h5>
+                </a>
+                <p class="mb-3 font-normal text-gray-700">
+                 ${item.details}
+                </p>
+                <a
+                  href="#"
+                  class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-[#ff5134] rounded-lg hover:bg-opacity-90"
+                >
+                  Get Started
+                  <svg
+                    class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 14 10"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M1 5h12m0 0L9 1m4 4L9 9"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+      `
+        )
+        .join("");
+      works.innerHTML = worksHTML;
     </script>
   </body>
 </html>
