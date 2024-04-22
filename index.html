@@ -17,25 +17,116 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"
       rel="stylesheet"
     />
-    <!-- <link
+    <link
       rel="stylesheet"
       href="https://unpkg.com/aos@3.0.0-beta.6/dist/aos.css"
-    /> -->
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
     <!-- <link
       href="https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css"
       rel="stylesheet"
     /> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Rising Heights Pavilion</title>
   </head>
   <body>
-    <header class="sticky top-0 z-10">
-      <nav class="bg-white border-gray-200 px-4 lg:px-6 py-2.5">
+    <header class="z-10">
+      <div class="hidden xl:block bg-[#ff5134] px-4 lg:px-6 py-4">
+        <div
+          class="max-w-screen-xl mx-auto flex items-center justify-between text-sm"
+        >
+          <span class="capitalize text-white text-base"
+            >together we can...</span
+          >
+
+          <div class="flex items-center text-white">
+            <a href="#"> My office </a>
+            <a href="#" class="ms-3"> How It Works </a>
+
+            <div class="flex ms-6 gap-3">
+              <a href="#" class="text-white">
+                <svg
+                  class="w-6 h-6"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M21.7 8.037a4.26 4.26 0 0 0-.789-1.964 2.84 2.84 0 0 0-1.984-.839c-2.767-.2-6.926-.2-6.926-.2s-4.157 0-6.928.2a2.836 2.836 0 0 0-1.983.839 4.225 4.225 0 0 0-.79 1.965 30.146 30.146 0 0 0-.2 3.206v1.5a30.12 30.12 0 0 0 .2 3.206c.094.712.364 1.39.784 1.972.604.536 1.38.837 2.187.848 1.583.151 6.731.2 6.731.2s4.161 0 6.928-.2a2.844 2.844 0 0 0 1.985-.84 4.27 4.27 0 0 0 .787-1.965 30.12 30.12 0 0 0 .2-3.206v-1.516a30.672 30.672 0 0 0-.202-3.206Zm-11.692 6.554v-5.62l5.4 2.819-5.4 2.801Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </a>
+              <a href="#" class="text-white">
+                <svg
+                  class="w-6 h-6"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </a>
+
+              <a href="#" class="text-white">
+                <svg
+                  class="w-6 h-6"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </a>
+              <a href="#" class="text-white">
+                <svg
+                  class="w-6 h-6"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M13.795 10.533 20.68 2h-3.073l-5.255 6.517L7.69 2H1l7.806 10.91L1.47 22h3.074l5.705-7.07L15.31 22H22l-8.205-11.467Zm-2.38 2.95L9.97 11.464 4.36 3.627h2.31l4.528 6.317 1.443 2.02 6.018 8.409h-2.31l-4.934-6.89Z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="sticky top-0 bg-white border-gray-200 px-4 lg:px-6 py-2.5">
         <div
           class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl"
         >
@@ -49,7 +140,9 @@
             <div
               class="self-center text-xl font-semibold whitespace-nowrap border-s-2 border-black"
             >
-              <span class="ms-2 hidden md:flex flex-col text-base">Rising Heights</span>
+              <span class="ms-2 hidden md:flex flex-col text-base"
+                >Rising Heights</span
+              >
             </div>
           </a>
           <div class="flex items-start lg:order-2">
@@ -149,47 +242,104 @@
       </nav>
     </header>
 
-
     <main class="block">
-      <section
-        class="bg-[url('https://images.unsplash.com/photo-1525784451128-d1488f52f03e?q=80&w=2128&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-top bg-no-repeat"
-      >
-        <div class="max-w-screen-xl px-4 py-40 mx-auto">
-          <div class="grid place-self-center">
-            <h1
-              data-aos="zoom-in"
-              data-aos-duration="4000"
-              data-aos-delay="300"
-              class="max-w-2xl mb-4 text-2xl font-extrabold tracking-tight leading-none xl:text-4xl"
-            >
-              Rising Height
-            </h1>
-            <h1
-              data-aos="zoom-in"
-              data-aos-duration="4000"
-              data-aos-delay="300"
-              class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl capitalize"
-            >
-              <div class="text-[#ff5134]">Corporate</div> Social Association
-            </h1>
-            <p
-              data-aos="fade-up-left"
-              data-aos-duration="4000"
-              data-aos-delay="300"
-              class="max-w-2xl mb-6 text-gray-500 lg:mb-8 md:text-lg lg:text-xl"
-            >
-              Enhancing and Advancing the Social Dignity and Well-Being of Man
-              Through Empowerment
-            </p>
-            <a
-              href="#"
-              class="inline-flex items-center justify-center px-5 py-3 mr-3 text-sm font-medium text-center text-white rounded-lg bg-[#ff5134] hover:bg-opacity-90 w-fit"
-            >
-              Get started
-            </a>
-          </div>
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <section
+            class="swiper-slide bg-[url('images/hero-1.png')] bg-cover bg-top bg-no-repeat"
+          >
+            <div class="max-w-screen-xl px-4 py-40 mx-auto">
+              <div class="grid place-self-center">
+                <h1
+                  data-aos="zoom-in"
+                  data-aos-duration="4000"
+                  data-aos-delay="300"
+                  class="max-w-2xl mb-4 text-2xl font-extrabold tracking-tight leading-none xl:text-4xl"
+                >
+                  Rising Height
+                </h1>
+                <h1
+                  data-aos="zoom-in"
+                  data-aos-duration="4000"
+                  data-aos-delay="300"
+                  class="max-w-xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl uppercase"
+                >
+                  <div class="text-[#ff5134]">Corporate</div>
+                  Social Association
+                </h1>
+                <p
+                  data-aos="fade-up-left"
+                  data-aos-duration="4000"
+                  data-aos-delay="300"
+                  class="max-w-2xl mb-6 text-gray-900 font-semibold lg:mb-8 md:text-lg lg:text-xl"
+                >
+                  Enhancing and Advancing the Social Dignity and Well-Being of
+                  Man Through Empowerment
+                </p>
+                <a
+                  href="#"
+                  class="inline-flex items-center justify-center px-5 py-3 mr-3 text-sm font-medium text-center text-white rounded-lg bg-[#ff5134] hover:bg-opacity-90 w-fit"
+                >
+                  Get started
+                </a>
+              </div>
+            </div>
+          </section>
+          <section
+            class="swiper-slide bg-[url('images/hero-1.png')] bg-cover bg-top bg-no-repeat"
+          >
+            <div class="max-w-screen-xl px-4 py-40 mx-auto">
+              <div class="grid place-self-center">
+                <h1
+                  data-aos="zoom-in"
+                  data-aos-duration="4000"
+                  data-aos-delay="300"
+                  class="max-w-2xl mb-4 text-2xl font-extrabold tracking-tight leading-none xl:text-4xl"
+                >
+                  Rising Height
+                </h1>
+                <h1
+                  data-aos="zoom-in"
+                  data-aos-duration="4000"
+                  data-aos-delay="300"
+                  class="max-w-xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl uppercase"
+                >
+                  <div class="text-[#ff5134]">Corporate</div>
+                  Social Association
+                </h1>
+                <p
+                  data-aos="fade-up-left"
+                  data-aos-duration="4000"
+                  data-aos-delay="300"
+                  class="max-w-2xl mb-6 text-gray-900 font-semibold lg:mb-8 md:text-lg lg:text-xl"
+                >
+                  Enhancing and Advancing the Social Dignity and Well-Being of
+                  Man Through Empowerment
+                </p>
+                <a
+                  href="#"
+                  class="inline-flex items-center justify-center px-5 py-3 mr-3 text-sm font-medium text-center text-white rounded-lg bg-[#ff5134] hover:bg-opacity-90 w-fit"
+                >
+                  Get started
+                </a>
+              </div>
+            </div>
+          </section>
         </div>
-      </section>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination">
+          <i class="bi bi-dot text-black"></i>
+        </div>
+
+        <!-- If we need navigation buttons -->
+        <!-- <div class="swiper-button-prev"></div> -->
+        <!-- <div class="swiper-button-next"></div> -->
+        <!-- If we need scrollbar -->
+        <!-- <div class="swiper-scrollbar"></div> -->
+      </div>
+
       <section class="bg-white">
         <div class="py-20 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
           <div class="max-w-screen-md mx-auto mb-8 lg:mb-16 text-center">
@@ -249,7 +399,7 @@
               </div>
               <a
                 href=""
-                class="mt-5 text-[#ff5134] hover:underline text-base xl:text-md font-bold capitalize"
+                class="mt-5 text-[#ff5134] hover:underline text-base xl:text-md font-bold capitalize w-fit"
                 >Learn more</a
               >
             </div>
@@ -287,7 +437,7 @@
               </div>
               <a
                 href=""
-                class="mt-5 text-[#ff5134] hover:underline text-base xl:text-md font-bold capitalize"
+                class="mt-5 text-[#ff5134] hover:underline text-base xl:text-md font-bold capitalize w-fit"
                 >Learn more</a
               >
             </div>
@@ -325,7 +475,7 @@
               </div>
               <a
                 href=""
-                class="mt-5 text-[#ff5134] hover:underline text-base xl:text-md font-bold capitalize"
+                class="mt-5 text-[#ff5134] hover:underline text-base xl:text-md font-bold capitalize w-fit"
                 >Learn more</a
               >
             </div>
@@ -343,9 +493,9 @@
             class="hidden lg:mt-0 lg:col-span-5 lg:flex"
           >
             <img
-              class="object-cover object-center"
-              src="https://images.unsplash.com/photo-1519783558103-d3eeaac092a9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              alt="mockup"
+              class="object-cover object-center rounded-lg"
+              src="images/industrybg.png"
+              alt="loading"
             />
           </div>
           <div
@@ -362,10 +512,11 @@
             <h1
               class="max-w-2xl mb-4 text-2xl lg:text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl capitalize"
             >
-              we serve <span class="text-[#ff5134]">the best</span> among all in the industry
+              we are <span class="text-[#ff5134]">the best</span> among all in
+              the industry
             </h1>
             <p
-              class="max-w-2xl mb-6 text-gray-500 lg:mb-8 md:text-lg lg:text-xl"
+              class="max-w-2xl mb-6 text-gray-900 lg:mb-8 md:text-lg lg:text-xl"
             >
               Become a member of Rising Height Pavilion and take advantage of
               the real estate and many more offers for members welfare and self
@@ -384,7 +535,7 @@
       </section>
       <section>
         <div class="max-w-screen-xl mx-auto px-4 py-20 lg:py-40 lg:px-6">
-          <div data-aos="zoom-in" data-aos-duration="3000" data-aos-delay="300">
+          <div data-aos="zoom-in" data-aos-duration="4000" data-aos-delay="300">
             <h1
               class="max-w-2xl mb-4 text-[#ff5134] text-lg lg:text-xl font-extrabold tracking-tight leading-none md:text-2xl capitalize"
             >
@@ -410,21 +561,21 @@
         </div>
       </section>
       <section
-        class="bg-gray-100 bg-[url('https://mages.unsplash.com/photo-1525784451128-d1488f52f03e?q=80&w=2128&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center bg-no-repeat"
+        class="bg-gray-100 bg-[url('images/teambg.png')] bg-cover bg-center bg-no-repeat"
       >
         <div class="py-20 px-4 mx-auto max-w-screen-xl lg:py-40 lg:px-6">
           <div
             data-aos="fade-in"
-            data-aos-duration="2000"
-            data-aos-delay="100"
+            data-aos-duration="4000"
+            data-aos-delay="300"
             class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16"
           >
             <h2
-              class="mb-4 text-2xl lg:text-4xl tracking-tight font-extrabold text-gray-900 capitalize"
+              class="mb-4 text-2xl lg:text-4xl tracking-tight font-extrabold text-gray-200 capitalize"
             >
-              Our <span class="text-[#ff5134]">Team</span>
+              Our Team
             </h2>
-            <p class="text-gray-500 lg:mb-16 sm:text-xl">
+            <p class="text-gray-100 lg:mb-16 sm:text-xl">
               Our team is a passionate collective of experienced professionals
               united by a love for empowerment and a dedication to creating
               solutions for poverty alleviation
@@ -437,7 +588,7 @@
         <div class="py-20 px-4 mx-auto max-w-screen-xl lg:py-40 lg:px-6">
           <div
             data-aos="zoom-in"
-            data-aos-duration="3000"
+            data-aos-duration="4000"
             data-aos-delay="300"
             class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16"
           >
@@ -459,7 +610,7 @@
           >
             <img
               data-aos="fade-left"
-              data-aos-duration="3000"
+              data-aos-duration="4000"
               data-aos-delay="300"
               class="max-h-[400px]"
               src="images/plan-1.png"
@@ -468,7 +619,7 @@
             />
             <img
               data-aos="fade-right"
-              data-aos-duration="3000"
+              data-aos-duration="4000"
               data-aos-delay="300"
               class="max-h-[400px]"
               src="images/plan-2.png"
@@ -480,7 +631,7 @@
       </section>
       <section class="bg-[#ff5134]">
         <div
-          class="flex item-center flex-col xl:flex-row gap-6 justify-around max-w-screen-xl mx-auto px-4 py-8 lg:py-16 lg:px-6"
+          class="flex item-center flex-col xl:flex-row gap-6 justify-around max-w-screen-xl mx-auto px-4 py-8 lg:px-6"
         >
           <div class="grow flex items-start gap-3">
             <div class="p-1 bg-white rounded-full">
@@ -558,7 +709,6 @@
       </section>
     </main>
 
-
     <footer class="px-4 bg-gray-800 lg:px-6 py-20">
       <div class="mx-auto max-w-screen-xl">
         <div
@@ -622,20 +772,33 @@
             >
               Recent post
             </h2>
-              <div class="flex flex-col gap-3 mt-6">
-                <div class="flex items-center h-full">
-                    <img class="w-16 h-16 object-cover object-center" src="https://images.unsplash.com/photo-1507152832244-10d45c7eda57?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="dashboard image">
-                    <div class="ms-3">
-                        <h2 class="text-base font-extrabold text-white">2024 empowerment program</h2>
-                        <p class="text-gray-500 text-sm mt-2">August 07, 2024</p>
-                    </div>
-                </div> <div class="flex items-center h-full">
-                    <img class="w-16 h-16 object-cover object-center" src="https://images.unsplash.com/photo-1507152832244-10d45c7eda57?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="dashboard image">
-                    <div class="ms-3">
-                        <h2 class="text-base font-extrabold text-white">2024 empowerment program</h2>
-                        <p class="text-gray-500 text-sm mt-2">August 07, 2024</p>
-                    </div>
+            <div class="flex flex-col gap-3 mt-6">
+              <div class="flex items-center h-full">
+                <img
+                  class="w-16 h-16 object-cover object-center"
+                  src="https://images.unsplash.com/photo-1507152832244-10d45c7eda57?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="dashboard image"
+                />
+                <div class="ms-3">
+                  <h2 class="text-base font-extrabold text-white">
+                    2024 empowerment program
+                  </h2>
+                  <p class="text-gray-500 text-sm mt-2">August 07, 2024</p>
                 </div>
+              </div>
+              <div class="flex items-center h-full">
+                <img
+                  class="w-16 h-16 object-cover object-center"
+                  src="https://images.unsplash.com/photo-1507152832244-10d45c7eda57?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="dashboard image"
+                />
+                <div class="ms-3">
+                  <h2 class="text-base font-extrabold text-white">
+                    2024 empowerment program
+                  </h2>
+                  <p class="text-gray-500 text-sm mt-2">August 07, 2024</p>
+                </div>
+              </div>
             </div>
           </div>
           <div>
@@ -646,12 +809,7 @@
             </h2>
 
             <form class="max-w-[200px] xl:max-w-xl">
-              <div class="mb-5">
-                <label
-                  for="email"
-                  class="block mb-2 text-sm font-medium text-white"
-                  >Your email</label
-                >
+              <div class="mb-3">
                 <input
                   type="email"
                   id="email"
@@ -660,12 +818,7 @@
                   required
                 />
               </div>
-              <div class="mb-5">
-                <label
-                  for="password"
-                  class="block mb-2 text-sm font-medium text-white"
-                  >Your password</label
-                >
+              <div class="mb-3">
                 <input
                   type="password"
                   id="password"
@@ -855,7 +1008,7 @@
         .map(
           (item, index) => `
           <div data-aos="zoom-in"
-          data-aos-duration="3000"
+          data-aos-duration="4000"
           data-aos-delay="300" class="items-center bg-gray-50 rounded-lg shadow sm:flex">
               <a href="#">
                 <img
@@ -924,6 +1077,31 @@
         )
         .join("");
       works.innerHTML = worksHTML;
+
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        direction: "horizontal",
+        loop: true,
+        autoplay: {
+          delay: 4000,
+        },
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+          el: ".swiper-scrollbar",
+        },
+      });
     </script>
   </body>
 </html>
