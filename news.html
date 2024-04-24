@@ -41,6 +41,201 @@
     <title>News / Events</title>
   </head>
   <body>
+    <header class="sticky top-0 z-10">
+      <div class="hidden xl:block bg-[#ff5134] px-4 lg:px-6 py-4">
+        <div
+          class="max-w-screen-xl mx-auto flex items-center justify-between text-sm"
+        >
+          <span class="capitalize text-white text-base"
+            >together we can...</span
+          >
+
+          <div class="flex items-center text-white">
+            <a href="#" class="me-3 hover:underline"> My office </a>
+            <span class="border-s border-2 h-4 text-white  border-white"></span>
+            <a href="#" class="ms-3 hover:underline"> How It Works </a>
+
+            <div class="flex ms-6 gap-3">
+              <a href="#" class="text-white">
+                <svg
+                  class="w-6 h-6"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M21.7 8.037a4.26 4.26 0 0 0-.789-1.964 2.84 2.84 0 0 0-1.984-.839c-2.767-.2-6.926-.2-6.926-.2s-4.157 0-6.928.2a2.836 2.836 0 0 0-1.983.839 4.225 4.225 0 0 0-.79 1.965 30.146 30.146 0 0 0-.2 3.206v1.5a30.12 30.12 0 0 0 .2 3.206c.094.712.364 1.39.784 1.972.604.536 1.38.837 2.187.848 1.583.151 6.731.2 6.731.2s4.161 0 6.928-.2a2.844 2.844 0 0 0 1.985-.84 4.27 4.27 0 0 0 .787-1.965 30.12 30.12 0 0 0 .2-3.206v-1.516a30.672 30.672 0 0 0-.202-3.206Zm-11.692 6.554v-5.62l5.4 2.819-5.4 2.801Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </a>
+              <a href="#" class="text-white">
+                <svg
+                  class="w-6 h-6"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </a>
+
+              <a href="#" class="text-white">
+                <svg
+                  class="w-6 h-6"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                    d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </a>
+              <a href="#" class="text-white">
+                <svg
+                  class="w-6 h-6"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M13.795 10.533 20.68 2h-3.073l-5.255 6.517L7.69 2H1l7.806 10.91L1.47 22h3.074l5.705-7.07L15.31 22H22l-8.205-11.467Zm-2.38 2.95L9.97 11.464 4.36 3.627h2.31l4.528 6.317 1.443 2.02 6.018 8.409h-2.31l-4.934-6.89Z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="sticky top-0 bg-white border-gray-200 px-4 lg:px-6 py-2.5">
+        <div
+          class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl"
+        >
+          <a href="/" class="flex items-center">
+            <img
+              src="images/logo-header.png"
+              class="mr-3 h-5 md:h-12"
+              loading="lazy"
+              alt="loading"
+            />
+          </a>
+          <div class="flex items-start lg:order-2">
+            <button
+              type="button"
+              class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2"
+            >
+              Log In
+            </button>
+            <button
+              type="button"
+              class="text-white bg-[#ff5134] hover:bg-opacity-90 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 focus:outline-none"
+            >
+              Register
+            </button>
+
+            <button
+              data-collapse-toggle="mobile-menu-2"
+              type="button"
+              class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-[#ff5134]"
+              aria-controls="mobile-menu-2"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Open main menu</span>
+              <svg
+                class="w-6 h-6"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              <svg
+                class="hidden w-6 h-6"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </button>
+          </div>
+          <div
+            class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
+            id="mobile-menu-2"
+          >
+            <ul
+              class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0"
+            >
+              <li>
+                <a
+                  href="index.html"
+                  class="block py-2 pr-4 pl-3 text-white rounded bg-[#ff5134] lg:bg-transparent lg:text-[#ff5134] lg:p-0"
+                  aria-current="page"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="about.html"
+                  class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-[#ff5134] lg:p-0"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a
+                  href="compensation.html"
+                  class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-[#ff5134] lg:p-0"
+                  >Compensation Plan</a
+                >
+              </li>
+              <li>
+                <a
+                  href="news.html"
+                  class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-[#ff5134] lg:p-0"
+                  >News / Events</a
+                >
+              </li>
+              <li>
+                <a
+                  href="gallery.html"
+                  class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-[#ff5134] lg:p-0"
+                  >Gallery</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
     <main>
       <section
         class="bg-[url('images/hero-1.png')] bg-cover bg-top bg-no-repeat"
@@ -81,9 +276,292 @@
           </div>
         </div>
       </section>
-      
+      <section class="bg-[#ff5134]">
+        <div
+          class="flex item-center flex-col xl:flex-row gap-6 justify-around max-w-screen-xl mx-auto px-4 py-8 lg:px-6"
+        >
+          <div class="grow flex items-start gap-3">
+            <div class="p-1 bg-white rounded-full">
+              <svg
+                class="w-6 h-6 text-[#233295]"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </div>
+            <p class="text-sm text-white">
+              Block D, Suite D5, 2XL MALL Beside Zenith Bank, Off 3rd Avenue,
+              Gwarinpa, Abuja, Nigeria
+            </p>
+          </div>
+          <div class="grow flex items-start gap-3">
+            <div class="p-1 bg-white rounded-full">
+              <svg
+                class="w-6 h-6 text-[#233295]"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M5 4a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4Zm12 12V5H7v11h10Zm-5 1a1 1 0 1 0 0 2h.01a1 1 0 1 0 0-2H12Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </div>
+            <div class="flex flex-col text-sm text-white">
+              <a href="tel:+2347041654049" class="hover:underline"
+                >+234 70 4165 4049</a
+              >
+              <a href="tel:+2347042365491" class="hover:underline"
+                >+234 70 4236 5491</a
+              >
+            </div>
+          </div>
+          <div class="grow flex items-start gap-3">
+            <div class="p-1 bg-white rounded-full">
+              <svg
+                class="w-6 h-6 text-[#233295]"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M5.024 3.783A1 1 0 0 1 6 3h12a1 1 0 0 1 .976.783L20.802 12h-4.244a1.99 1.99 0 0 0-1.824 1.205 2.978 2.978 0 0 1-5.468 0A1.991 1.991 0 0 0 7.442 12H3.198l1.826-8.217ZM3 14v5a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5h-4.43a4.978 4.978 0 0 1-9.14 0H3Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </div>
+            <a href="" class="text-sm text-white hover:underline">
+              hello@risingheight.com
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
+    <footer class="px-4 bg-gray-800 lg:px-6 py-20">
+      <div class="mx-auto max-w-screen-xl">
+        <div
+          class="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 justify-between gap-8"
+        >
+          <div>
+            <h2
+              class="mb-6 text-white text-base xl:text-lg font-bold text-gray-900 uppercase"
+            >
+              About Us
+            </h2>
+            <p class="text-gray-300 mt-6 text-sm">
+              We are a corporate social association drawing membership from all
+              interest groups and persons from all works of life with a common
+              aim and objective of enhancing welfare.
+            </p>
+          </div>
+          <div>
+            <h2
+              class="mb-6 text-white text-base xl:text-lg font-bold text-gray-900 uppercase"
+            >
+              Gallery
+            </h2>
+            <div class="mt-6 grid grid-cols-3 gap-2 xl:gap-3">
+              <img
+                class="object-cover object-center rounded-md"
+                src="https://images.unsplash.com/photo-1580519542036-c47de6196ba5?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                loading="lazy"
+                alt="loading"
+              /><img
+                class="object-cover object-center rounded-md"
+                src="https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                loading="lazy"
+                alt="loading"
+              /><img
+                class="object-cover object-center rounded-md"
+                src="https://images.unsplash.com/photo-1587433701752-78cbf88ae429?q=80&w=2669&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                loading="lazy"
+                alt="loading"
+              /><img
+                class="object-cover object-center rounded-md"
+                src="https://images.unsplash.com/photo-1603889780684-f77d5fff19a9?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                loading="lazy"
+                alt="loading"
+              /><img
+                class="object-cover object-center rounded-md"
+                src="https://images.unsplash.com/photo-1601084881623-cdf9a8ea242c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                loading="lazy"
+                alt="loading"
+              /><img
+                class="object-cover object-center rounded-md"
+                src="https://images.unsplash.com/photo-1621293954908-907159247fc8?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                loading="lazy"
+                alt="loading"
+              />
+            </div>
+          </div>
+          <div>
+            <h2
+              class="mb-6 text-white text-base xl:text-lg font-bold text-gray-900 uppercase"
+            >
+              Recent post
+            </h2>
+            <div class="flex flex-col gap-3 mt-6">
+              <div class="flex items-center h-full">
+                <img
+                  class="w-16 h-16 object-cover object-center"
+                  src="https://images.unsplash.com/photo-1507152832244-10d45c7eda57?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="dashboard image"
+                />
+                <div class="ms-3">
+                  <h2 class="text-base font-extrabold text-white">
+                    2024 empowerment program
+                  </h2>
+                  <p class="text-gray-500 text-sm mt-2">August 07, 2024</p>
+                </div>
+              </div>
+              <div class="flex items-center h-full">
+                <img
+                  class="w-16 h-16 object-cover object-center"
+                  src="https://images.unsplash.com/photo-1507152832244-10d45c7eda57?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt="dashboard image"
+                />
+                <div class="ms-3">
+                  <h2 class="text-base font-extrabold text-white">
+                    2024 empowerment program
+                  </h2>
+                  <p class="text-gray-500 text-sm mt-2">August 07, 2024</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h2
+              class="mb-6 text-white text-base xl:text-lg font-bold text-gray-900 uppercase"
+            >
+              subscribe us
+            </h2>
 
+            <form class="max-w-[200px] xl:max-w-xl">
+              <div class="mb-3">
+                <input
+                  type="email"
+                  id="email"
+                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-[#ff5134] focus:border-[#ff5134] block w-full p-2.5"
+                  placeholder="name@email.com"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="password"
+                  id="password"
+                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-[#ff5134] focus:border-[#ff5134] block w-full p-2.5"
+                  required
+                />
+              </div>
+
+              <button
+                type="submit"
+                class="text-white bg-[#ff5134] hover:bg-opacity-90 font-medium rounded-lg text-sm w-fit sm:w-auto px-5 py-2.5 text-center"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+        <hr class="my-6 border-gray-200 sm:mx-auto lg:my-8" />
+        <div class="sm:flex sm:items-center sm:justify-between">
+          <span class="text-sm text-gray-200 sm:text-center"
+            >© 2024
+            <a href="https://flowbite.com" class="hover:underline"
+              >Rising Height Pavilion</a
+            >. All Rights Reserved.
+          </span>
+          <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
+            <a href="#" class="text-white bg-[#ff5134] p-1 rounded-full">
+              <svg
+                class="w-6 h-6"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+            <a href="#" class="text-white bg-[#ff5134] p-1 rounded-full">
+              <svg
+                class="w-6 h-6"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M13.795 10.533 20.68 2h-3.073l-5.255 6.517L7.69 2H1l7.806 10.91L1.47 22h3.074l5.705-7.07L15.31 22H22l-8.205-11.467Zm-2.38 2.95L9.97 11.464 4.36 3.627h2.31l4.528 6.317 1.443 2.02 6.018 8.409h-2.31l-4.934-6.89Z"
+                />
+              </svg>
+            </a>
+            <a href="#" class="text-white bg-[#ff5134] p-1 rounded-full">
+              <svg
+                class="w-6 h-6"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M21.7 8.037a4.26 4.26 0 0 0-.789-1.964 2.84 2.84 0 0 0-1.984-.839c-2.767-.2-6.926-.2-6.926-.2s-4.157 0-6.928.2a2.836 2.836 0 0 0-1.983.839 4.225 4.225 0 0 0-.79 1.965 30.146 30.146 0 0 0-.2 3.206v1.5a30.12 30.12 0 0 0 .2 3.206c.094.712.364 1.39.784 1.972.604.536 1.38.837 2.187.848 1.583.151 6.731.2 6.731.2s4.161 0 6.928-.2a2.844 2.844 0 0 0 1.985-.84 4.27 4.27 0 0 0 .787-1.965 30.12 30.12 0 0 0 .2-3.206v-1.516a30.672 30.672 0 0 0-.202-3.206Zm-11.692 6.554v-5.62l5.4 2.819-5.4 2.801Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+            <a href="#" class="text-white bg-[#ff5134] p-1 rounded-full">
+              <svg
+                class="w-6 h-6"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="none"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="currentColor"
+                  fill-rule="evenodd"
+                  d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       const swiper = new Swiper(".swiper", {
