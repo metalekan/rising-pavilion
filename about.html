@@ -21,20 +21,6 @@
       rel="stylesheet"
       href="https://unpkg.com/aos@3.0.0-beta.6/dist/aos.css"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-    <!-- <link
-          href="https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css"
-          rel="stylesheet"
-        /> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -241,15 +227,15 @@
     </header>
     <main>
       <section
-        class="bg-[url('images/about-us.png')] bg-cover bg-top bg-no-repeat"
+        class="bg-blue-200 bg-[url('images/about-us.png')] bg-cover bg-top bg-no-repeat"
       >
-      <div class="max-w-screen-xl px-4 lg:px-6 py-40 mx-auto">
+      <div class="max-w-screen-xl px-4 lg:px-6 py-20 xl:py-40 mx-auto">
         <div class="grid place-self-center">
           <h1
             data-aos="zoom-in"
             data-aos-duration="4000"
             data-aos-delay="300"
-            class="max-w-2xl mb-4 text-2xl font-extrabold tracking-tight leading-none xl:text-4xl text-[#ff5134]"
+            class="mb-4 text-2xl font-extrabold tracking-tight leading-none xl:text-4xl text-[#ff5134]"
           >
             Rising Height
           </h1>
@@ -257,7 +243,7 @@
             data-aos="zoom-in"
             data-aos-duration="4000"
             data-aos-delay="300"
-            class="max-w-xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl uppercase"
+            class="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl uppercase"
           >
           Corporate <br> Social <br> Association
         </h1>
@@ -265,7 +251,7 @@
             data-aos="fade-up-left"
             data-aos-duration="4000"
             data-aos-delay="300"
-            class="max-w-xl mb-6 text-gray-900 lg:mb-8 md:text-lg lg:text-xl"
+            class="mb-6 text-gray-900 lg:mb-8 md:text-lg lg:text-xl"
           >
             Enhancing and Advancing the Social <br> Dignity  and Well-Being of <br>
             Man Through Empowerment
@@ -710,30 +696,6 @@
     </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-      const swiper = new Swiper(".swiper", {
-        // Optional parameters
-        direction: "horizontal",
-        loop: true,
-        autoplay: {
-          delay: 4000,
-        },
-
-        // If we need pagination
-        pagination: {
-          el: ".swiper-pagination",
-        },
-
-        // Navigation arrows
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-
-        // And if we need scrollbar
-        scrollbar: {
-          el: ".swiper-scrollbar",
-        },
-      });
       AOS.init();
     </script>
   </body>
