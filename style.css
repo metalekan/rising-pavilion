@@ -10,13 +10,123 @@
 body {
   width: 100%;
   background-color: #fff;
-  position: relative;
   scroll-behavior: smooth;
 }
 
-img, svg{
+img, svg {
   max-width: 100%;
   object-fit: cover;
+}
+
+#checkbox {
+  display: none;
+}
+
+#checkbox {
+  display: none;
+}
+
+.toggle {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition-duration: 0.5s;
+  scale: 0.65;
+}
+
+.bars {
+  width: 100%;
+  height: 4px;
+  background-color: #c86b17;
+  border-radius: 4px;
+}
+
+#bar2 {
+  transition-duration: 0.8s;
+}
+
+#bar1,
+#bar3 {
+  width: 70%;
+}
+
+#checkbox:checked+.toggle .bars {
+  position: absolute;
+  transition-duration: 0.5s;
+}
+
+#checkbox:checked+.toggle #bar2 {
+  transform: scaleX(0);
+  transition-duration: 0.5s;
+}
+
+#checkbox:checked+.toggle #bar1 {
+  width: 100%;
+  transform: rotate(45deg);
+  transition-duration: 0.5s;
+}
+
+#checkbox:checked+.toggle #bar3 {
+  width: 100%;
+  transform: rotate(-45deg);
+  transition-duration: 0.5s;
+}
+
+#checkbox:checked+.toggle {
+  transition-duration: 0.5s;
+  transform: rotate(180deg);
+}
+
+.menu li {
+  list-style: none;
+  font-family: inherit;
+  /* cursor: pointer; */
+  position: relative;
+  /* width: 100%; */
+  border: none;
+  background: none;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+.mobile li a {
+  width: 60vw;
+  display: block;
+  text-align: center;
+  /* border: 1px solid; */
+  padding: 1rem;
+}
+
+.menu li a:focus,
+.menu li a:hover {
+  color: #c86b17;
+}
+
+.menu li:focus:after,
+.menu li:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.menu li:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #c86b17;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
 }
 
 .scroll-top {
@@ -32,7 +142,7 @@ img, svg{
   animation: bounce_513 1s infinite;
 }
 
-section{
+section {
   width: 100%;
 }
 
